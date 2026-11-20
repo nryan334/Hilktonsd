@@ -1,0 +1,6 @@
+.idea/
+target/
+.vscode/
+*.iml
+*.log
+temp_mvn/

@@ -1,0 +1,276 @@
+name: HCTeams
+version: ${git.commit.id.abbrev}
+author: ${minehq.pluginAuthor}
+main: net.frozenorb.foxtrot.Foxtrot
+depend: [ Proton, Neutron, ProtocolLib]
+softdepend: [ WorldEdit, Suge, CrazyEnchantments, LunarClient-API, LunarClientAPI, BuycraftX, Tebex, CrackShot]
+
+permissions:
+  battlepass.daily.reset:
+    default: op
+  battlepass.disable:
+    default: op
+  battlepass.dump:
+    default: op
+  battlepass.reset:
+    default: op
+  battlepass.setpremium:
+    default: op
+  battlepass.setxp:
+    default: op
+  ce.menu.settings:
+    default: op
+  command.airdrops.give:
+    default: op
+  command.archercolor:
+    default: op
+  command.clickablekit:
+    default: op
+  command.content.jump:
+    default: op
+  command.content.restrict:
+    default: op
+  command.crates.addcmd:
+    default: op
+  command.crates.additem:
+    default: op
+  command.crates.create:
+    default: op
+  command.crates.give:
+    default: op
+  command.crates.giveblock:
+    default: op
+  command.disable.anticlean:
+    default: op
+  command.fmr:
+    default: op
+  command.invadmin:
+    default: op
+  command.ktk:
+    default: op
+  command.moneyvoucher.give:
+    default: op
+  command.nopartneritemcooldown:
+    default: op
+  command.spawn:
+    default: op
+  command.treasure.add:
+    default: op
+  fotrot.manage.rename:
+    default: op
+  foxtrot.addbal:
+    default: op
+  foxtrot.addlives:
+    default: op
+  foxtrot.addpoints:
+    default: op
+  foxtrot.addraidable:
+    default: op
+  foxtrot.bottle:
+    default: op
+  foxtrot.chatspy:
+    default: op
+  foxtrot.command.ability:
+    default: op
+  foxtrot.command.ability.category:
+    default: op
+  foxtrot.command.ability.editor:
+    default: op
+  foxtrot.command.ability.reset:
+    default: op
+  foxtrot.command.checkteaminv:
+    default: op
+  foxtrot.command.clearinv:
+    default: op
+  foxtrot.command.clickitem:
+    default: op
+  foxtrot.command.customtimer:
+    default: op
+  foxtrot.command.editor:
+    default: op
+  foxtrot.command.enderpearl:
+    default: op
+  foxtrot.command.eotw:
+    default: op
+  foxtrot.command.eotw.ffa:
+    default: op
+  foxtrot.command.eotw.teleportall:
+    default: op
+  foxtrot.command.eotw.unclaimall:
+    default: op
+  foxtrot.command.faction.ban:
+    default: op
+  foxtrot.command.faction.mute:
+    default: op
+  foxtrot.command.faction.teleportall:
+    default: op
+  foxtrot.command.flag.add:
+    default: op
+  foxtrot.command.flag.info:
+    default: op
+  foxtrot.command.flag.list:
+    default: op
+  foxtrot.command.flag.remove:
+    default: op
+  foxtrot.command.flag.setup:
+    default: op
+  foxtrot.command.forcesethq:
+    default: op
+  foxtrot.command.itemboxes:
+    default: op
+  foxtrot.command.koth.activate:
+    default: op
+  foxtrot.command.koth.distance:
+    default: op
+  foxtrot.command.koth.location:
+    default: op
+  foxtrot.command.preeotw:
+    default: op
+  foxtrot.command.reclaimadmin:
+    default: op
+  foxtrot.command.resetreclaim:
+    default: op
+  foxtrot.command.sotw.cancel:
+    default: op
+  foxtrot.command.sotw.extend:
+    default: op
+  foxtrot.command.sotw.set:
+    default: op
+  foxtrot.command.sotw.start:
+    default: op
+  foxtrot.command.stats.setdeaths:
+    default: op
+  foxtrot.command.stats.setkills:
+    default: op
+  foxtrot.command.stats.setkillstreak:
+    default: op
+  foxtrot.command.stats.setkothcaptures:
+    default: op
+  foxtrot.command.stats.setteamdeaths:
+    default: op
+  foxtrot.command.stats.setteamkills:
+    default: op
+  foxtrot.command.tokens.admin:
+    default: op
+  foxtrot.command.trader:
+    default: op
+  foxtrot.command.treasure:
+    default: op
+  foxtrot.command.unmute:
+    default: op
+  foxtrot.command.voucher.create:
+    default: op
+  foxtrot.command.voucher.delete:
+    default: op
+  foxtrot.command.voucher.editor:
+    default: op
+  foxtrot.command.voucher.give:
+    default: op
+  foxtrot.command.voucher.giveaway:
+    default: op
+  foxtrot.crates.admin:
+    default: op
+  foxtrot.deathrefund:
+    default: op
+  foxtrot.deaths:
+    default: op
+  foxtrot.dtc.admin:
+    default: op
+  foxtrot.factiontp:
+    default: op
+  foxtrot.forcedisband:
+    default: op
+  foxtrot.forcejoin:
+    default: op
+  foxtrot.forcekick:
+    default: op
+  foxtrot.forceleader:
+    default: op
+  foxtrot.forceleave:
+    default: op
+  foxtrot.forcesetbal:
+    default: op
+  foxtrot.gem.double:
+    default: op
+  foxtrot.gopplereset:
+    default: op
+  foxtrot.koth:
+    default: op
+  foxtrot.koth.admin:
+    default: op
+  foxtrot.lastinv:
+    default: op
+  foxtrot.manage:
+    default: op
+  foxtrot.manage.balance:
+    default: op
+  foxtrot.manage.demote:
+    default: op
+  foxtrot.manage.kick:
+    default: op
+  foxtrot.manage.leader:
+    default: op
+  foxtrot.manage.promote:
+    default: op
+  foxtrot.mutefaction:
+    default: op
+  foxtrot.powerfactions:
+    default: op
+  foxtrot.pp.admin:
+    default: op
+  foxtrot.pp.give:
+    default: op
+  foxtrot.removepoints:
+    default: op
+  foxtrot.removeraidable:
+    default: op
+  foxtrot.revive:
+    default: op
+  foxtrot.setbal:
+    default: op
+  foxtrot.setdtr:
+    default: op
+  foxtrot.setlives:
+    default: op
+  foxtrot.setteambalance:
+    default: op
+  foxtrot.startdtrregen:
+    default: op
+  foxtrot.strike:
+    default: op
+  foxtrot.toggleend:
+    default: op
+  game.command.end:
+    default: op
+  game.command.start:
+    default: op
+  hcf.command.spawner:
+    default: op
+  hcf.command.staffboard:
+    default: op
+  hcteams.setkillstreak:
+    default: op
+  hilton.features:
+    default: op
+  hilton.mapeditor:
+    default: op
+  hilton.npc.create:
+    default: op
+  hilton.npc.delete:
+    default: op
+  hilton.npc.edit:
+    default: op
+  hilton.npc.editor:
+    default: op
+  hilton.syncperms:
+    default: op
+  partner.edit.rewards:
+    default: op
+  partner.redeemlist:
+    default: op
+  redeem.creator.clear:
+    default: op
+  redeem.creator.stats:
+    default: op
+  team.command.settrapdoor:
+    default: op

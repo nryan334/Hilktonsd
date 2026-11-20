@@ -1,0 +1,11 @@
+name: Tebex
+version: '2.4.2'
+main: io.tebex.plugin.TebexBukkitPlugin
+api-version: 1.13
+softdepend:
+  - BuycraftX
+commands:
+  tebex:
+    description: The main command
+    aliases:
+      - buycraft
