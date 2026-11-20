@@ -59,8 +59,6 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
-					<fork>true</fork>
-					<executable>C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\bin\javac.exe</executable>
 					<annotationProcessorPaths>
 						<path>
 							<groupId>org.projectlombok</groupId>
@@ -173,14 +171,14 @@
 			<artifactId>vspigot-api</artifactId>
 			<version>1.7.10-R0.1-SNAPSHOT</version>
 			<scope>system</scope>
-			<systemPath>D:/cavepvp-stuff/HCF-master/lib/vspigot-api.jar</systemPath>
+			<systemPath>${project.basedir}/lib/vspigot-api.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>net.valorhcf</groupId>
 			<artifactId>vspigot-server</artifactId>
 			<version>1.7.10-R0.1-SNAPSHOT</version>
 			<scope>system</scope>
-			<systemPath>D:/cavepvp-stuff/HCF-master/lib/vspigot-server.jar</systemPath>
+			<systemPath>${project.basedir}/lib/vspigot-server.jar</systemPath>
 		</dependency>
 
 		<!-- Misc. Jars -->
@@ -196,63 +194,63 @@
 			<artifactId>Proton</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<scope>system</scope>
-			<systemPath>D:/cavepvp-stuff/HCF-master/lib/Proton.jar</systemPath>
+			<systemPath>${project.basedir}/lib/Proton.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.minexd.quartz</groupId>
 			<artifactId>plugin</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<scope>system</scope>
-			<systemPath>D:/cavepvp-stuff/HCF-master/lib/Quartz.jar</systemPath>
+			<systemPath>${project.basedir}/lib/Quartz.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>cc.fury.piston</groupId>
 			<artifactId>Piston</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<scope>system</scope>
-			<systemPath>D:/cavepvp-stuff/HCF-master/lib/Piston.jar</systemPath>
+			<systemPath>${project.basedir}/lib/Piston.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.cavepvp.suge</groupId>
 			<artifactId>Suge</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<scope>system</scope>
-			<systemPath>D:/cavepvp-stuff/HCF-master/lib/Suge.jar</systemPath>
+			<systemPath>${project.basedir}/lib/Suge.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.cavepvp.buycraft</groupId>
 			<artifactId>Buycraft</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<scope>system</scope>
-			<systemPath>D:/cavepvp-stuff/HCF-master/lib/BuycraftX.jar</systemPath>
+			<systemPath>${project.basedir}/lib/BuycraftX.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.cavepvp.crackshot</groupId>
 			<artifactId>Crackshot</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<scope>system</scope>
-			<systemPath>D:/cavepvp-stuff/HCF-master/lib/CrackShot.jar</systemPath>
+			<systemPath>${project.basedir}/lib/CrackShot.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>votifier</groupId>
 			<artifactId>votifier</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<scope>system</scope>
-			<systemPath>D:/cavepvp-stuff/HCF-master/lib/Votifier.jar</systemPath>
+			<systemPath>${project.basedir}/lib/Votifier.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>cc.fyre.universe</groupId>
 			<artifactId>spigot</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<scope>system</scope>
-			<systemPath>D:/cavepvp-stuff/HCF-master/lib/Universe.jar</systemPath>
+			<systemPath>${project.basedir}/lib/Universe.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.comphenix.protocol</groupId>
 			<artifactId>ProtocolLib</artifactId>
 			<version>3.6.5-SNAPSHOT</version>
 			<scope>system</scope>
-			<systemPath>D:/cavepvp-stuff/HCF-master/lib/ProtocolLib.jar</systemPath>
+			<systemPath>${project.basedir}/lib/ProtocolLib.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -278,7 +276,7 @@
 			<artifactId>Neutron</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<scope>system</scope>
-			<systemPath>D:/cavepvp-stuff/HCF-master/lib/Neutron.jar</systemPath>
+			<systemPath>${project.basedir}/lib/Neutron.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.lunarclient</groupId>
@@ -300,7 +298,7 @@
 			<artifactId>Profiles</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<scope>system</scope>
-			<systemPath>D:/cavepvp-stuff/HCF-master/lib/Profiles.jar</systemPath>
+			<systemPath>${project.basedir}/lib/Profiles.jar</systemPath>
 		</dependency>
 	</dependencies>
 </project>

@@ -1,6 +1,6 @@
 name: HCTeams
-version: ${git.commit.id.abbrev}
-author: ${minehq.pluginAuthor}
+version: 1.0
+author: FrozenOrb
 main: net.frozenorb.foxtrot.Foxtrot
 depend: [ Proton, Neutron, ProtocolLib]
 softdepend: [ WorldEdit, Suge, CrazyEnchantments, LunarClient-API, LunarClientAPI, BuycraftX, Tebex, CrackShot]
